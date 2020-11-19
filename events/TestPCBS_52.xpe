@@ -1,0 +1,55 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 18:43:02
+#sha1: 17f98f
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1523,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,result,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1523,design,logged,
+1523,Experiment,started
+1526,Stimulus,presented,0
+1526,Stimulus,created,6,BlankScreen,copied from 5
+1526,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DF15190>'
+1530,Picture,loaded,pictures\biberon.jpg
+1534,Picture,loaded,pictures\livre.jpg
+1551,Stimulus,presented,6
+1553,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+6199,Picture,loaded,pictures\biberon.jpg
+6201,Picture,loaded,pictures\biberon.jpg
+6203,Picture,loaded,pictures\livre.jpg
+6204,Picture,loaded,pictures\livre.jpg
+6205,TouchScreenButtonBox,received, button press,check
+6205,stdout,received,''
+6207,Stimulus,presented,0
+7207,Stimulus,created,11,BlankScreen,copied from 10
+7207,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DF15568>'
+7211,Picture,loaded,pictures\couche.jpg
+7214,Picture,loaded,pictures\main.jpg
+7230,Stimulus,presented,11
+7232,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+12800,Picture,loaded,pictures\couche.jpg
+12801,Picture,loaded,pictures\couche.jpg
+12803,Picture,loaded,pictures\main.jpg
+12805,Picture,loaded,pictures\main.jpg
+12805,TouchScreenButtonBox,received, button press,check
+12806,stdout,received,''
+12808,Stimulus,presented,0
+13808,Stimulus,created,16,BlankScreen,copied from 15
+13808,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DF15508>'
+13812,Picture,loaded,pictures\biberon.jpg
+13816,Picture,loaded,pictures\livre.jpg
+13833,Stimulus,presented,16
+13834,Stimulus,played,b'sounds\\IL_O\xc3\x99_BIBERON.wav'
+19050,Picture,loaded,pictures\biberon.jpg
+19051,Picture,loaded,pictures\biberon.jpg
+19054,Picture,loaded,pictures\livre.jpg
+19056,Picture,loaded,pictures\livre.jpg
+19056,TouchScreenButtonBox,received, button press,check
+19057,stdout,received,''
+19059,Stimulus,presented,0
+21822,Experiment,ended
+21826,Data,saved

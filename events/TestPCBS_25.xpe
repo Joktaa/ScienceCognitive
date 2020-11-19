@@ -1,0 +1,49 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 16:18:39
+#sha1: e63fef
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+2099,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+2099,design,logged,
+2099,Experiment,started
+2104,Stimulus,presented,0
+2105,Stimulus,created,6,BlankScreen,copied from 5
+2106,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D3740A0>'
+2109,Picture,loaded,pictures\nez.jpg
+2113,Picture,loaded,pictures\pied.jpg
+2138,Stimulus,presented,6
+2140,Stimulus,played,b'sounds\\IL_O\xc3\x99_PIED.wav'
+6927,Picture,loaded,pictures\nez.jpg
+6928,Picture,loaded,pictures\nez.jpg
+6930,Picture,loaded,pictures\pied.jpg
+6932,Picture,loaded,pictures\pied.jpg
+6933,TouchScreenButtonBox,received, button press,check
+6938,Stimulus,presented,0
+7938,Stimulus,created,11,BlankScreen,copied from 10
+7938,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D374178>'
+7942,Picture,loaded,pictures\couche.jpg
+7946,Picture,loaded,pictures\main.jpg
+7969,Stimulus,presented,11
+7971,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+12824,Picture,loaded,pictures\couche.jpg
+12826,Picture,loaded,pictures\couche.jpg
+12828,Picture,loaded,pictures\main.jpg
+12830,Picture,loaded,pictures\main.jpg
+12830,TouchScreenButtonBox,received, button press,check
+12835,Stimulus,presented,0
+13835,Stimulus,created,16,BlankScreen,copied from 15
+13835,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D374040>'
+13839,Picture,loaded,pictures\biberon.jpg
+13843,Picture,loaded,pictures\livre.jpg
+13870,Stimulus,presented,16
+13872,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+16872,Experiment,paused
+16877,Stimulus,presented,17
+18080,Keyboard,received,y,wait_char
+18081,Experiment,ended
+18086,Data,saved

@@ -1,0 +1,49 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 17:55:12
+#sha1: 308e31
+#modules: stat.py (8f3442)
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1458,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1458,design,logged,
+1458,Experiment,started
+1460,Stimulus,presented,0
+1461,Stimulus,created,6,BlankScreen,copied from 5
+1461,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D2FC5B0>'
+1465,Picture,loaded,pictures\nez.jpg
+1470,Picture,loaded,pictures\pied.jpg
+1491,Stimulus,presented,6
+1493,Stimulus,played,b'sounds\\IL_O\xc3\x99_NEZ.wav'
+6945,Picture,loaded,pictures\nez.jpg
+6947,Picture,loaded,pictures\nez.jpg
+6949,Picture,loaded,pictures\pied.jpg
+6950,Picture,loaded,pictures\pied.jpg
+6950,TouchScreenButtonBox,received, button press,check
+6953,Stimulus,presented,0
+7953,Stimulus,created,11,BlankScreen,copied from 10
+7954,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D2FC3A0>'
+7957,Picture,loaded,pictures\couche.jpg
+7961,Picture,loaded,pictures\main.jpg
+7977,Stimulus,presented,11
+7981,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+12773,Picture,loaded,pictures\couche.jpg
+12775,Picture,loaded,pictures\couche.jpg
+12777,Picture,loaded,pictures\main.jpg
+12778,Picture,loaded,pictures\main.jpg
+12779,TouchScreenButtonBox,received, button press,check
+12781,Stimulus,presented,0
+13781,Stimulus,created,16,BlankScreen,copied from 15
+13781,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D2FC490>'
+13785,Picture,loaded,pictures\voiture.jpg
+13789,Picture,loaded,pictures\balle.jpg
+13808,Stimulus,presented,16
+13810,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_VOITURE.wav'
+18006,Experiment,paused
+18009,Stimulus,presented,17
+19298,Keyboard,received,y,wait_char
+19298,Experiment,ended
+19300,Data,saved

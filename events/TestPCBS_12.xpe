@@ -1,0 +1,31 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 15:44:50
+#sha1: 93a00e
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+30307,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+30307,design,logged,
+30307,Experiment,started
+30310,Stimulus,presented,0
+30311,Stimulus,created,6,BlankScreen,copied from 5
+30311,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DA84088>'
+30315,Picture,loaded,pictures\couche.jpg
+30321,Picture,loaded,pictures\main.jpg
+30350,Stimulus,presented,6
+30353,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_COUCHE.wav'
+36415,Picture,loaded,pictures\couche.jpg
+36417,Picture,loaded,pictures\couche.jpg
+36419,Picture,loaded,pictures\main.jpg
+36421,Picture,loaded,pictures\main.jpg
+36422,TouchScreenButtonBox,received, button press,check
+36425,Stimulus,presented,0
+37425,stderr,received,'Traceback (most recent call last):'
+37426,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 45, in <module>'
+37427,stderr,received,'    while len(apparu) < 16:'
+37433,stderr,received,"TypeError: object of type 'NoneType' has no len()"
+37440,Data,saved

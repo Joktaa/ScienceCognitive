@@ -1,0 +1,30 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 17:53:31
+#sha1: 8ed2cd
+#modules: stat.py (8f3442)
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1487,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1487,design,logged,
+1487,Experiment,started
+1489,Stimulus,presented,0
+1490,Stimulus,created,6,BlankScreen,copied from 5
+1491,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D64B658>'
+1494,Picture,loaded,pictures\voiture.jpg
+1500,Picture,loaded,pictures\balle.jpg
+1520,Stimulus,presented,6
+1521,Stimulus,played,b'sounds\\IL_O\xc3\x99_BALLON.wav'
+6574,Picture,loaded,pictures\voiture.jpg
+6576,Picture,loaded,pictures\voiture.jpg
+6578,Picture,loaded,pictures\balle.jpg
+6580,Picture,loaded,pictures\balle.jpg
+6580,TouchScreenButtonBox,received, button press,check
+6581,stderr,received,'Traceback (most recent call last):'
+6581,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 97, in <module>'
+6582,stderr,received,'    tabData[i][0] = courtSound'
+6589,stderr,received,'IndexError: list assignment index out of range'
+6593,Data,saved

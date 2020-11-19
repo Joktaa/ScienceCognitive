@@ -1,0 +1,51 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 19:38:53
+#sha1: 4fc48a
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1444,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,result,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1444,design,logged,
+1444,Experiment,started
+1447,Stimulus,presented,0
+1447,Stimulus,created,6,BlankScreen,copied from 5
+1448,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DE94160>'
+1451,Picture,loaded,pictures\couche.jpg
+1455,Picture,loaded,pictures\main.jpg
+1475,Stimulus,presented,6
+1476,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+3476,stdout,received,'bip bip'
+6166,Picture,loaded,pictures\couche.jpg
+6168,Picture,loaded,pictures\couche.jpg
+6170,Picture,loaded,pictures\main.jpg
+6172,Picture,loaded,pictures\main.jpg
+6173,TouchScreenButtonBox,received, button press,check
+6173,stdout,received,'bop bop'
+6173,stdout,received,''
+6175,Stimulus,presented,0
+7175,Stimulus,created,11,BlankScreen,copied from 10
+7175,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DE94538>'
+7180,Picture,loaded,pictures\couche.jpg
+7184,Picture,loaded,pictures\main.jpg
+7199,Stimulus,presented,11
+7201,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+9201,stdout,received,'bip bip'
+12202,stdout,received,'bop bop'
+12202,stdout,received,''
+12208,Stimulus,presented,0
+13209,Stimulus,created,16,BlankScreen,copied from 15
+13210,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DE94538>'
+13213,Picture,loaded,pictures\biberon.jpg
+13218,Picture,loaded,pictures\livre.jpg
+13235,Stimulus,presented,16
+13237,Stimulus,played,b'sounds\\IL_O\xc3\x99_BIBERON.wav'
+15237,stdout,received,'bip bip'
+15238,Experiment,paused
+15242,Stimulus,presented,17
+15971,Keyboard,received,y,wait_char
+15971,Experiment,ended
+15974,Data,saved

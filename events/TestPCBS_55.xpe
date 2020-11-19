@@ -1,0 +1,40 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 18:45:49
+#sha1: e89c13
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+8193,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,result,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+8194,design,logged,
+8194,Experiment,started
+8197,Stimulus,presented,0
+8197,Stimulus,created,6,BlankScreen,copied from 5
+8198,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DB45190>'
+8203,Picture,loaded,pictures\biberon.jpg
+8208,Picture,loaded,pictures\livre.jpg
+8228,Stimulus,presented,6
+8229,Stimulus,played,b'sounds\\IL_O\xc3\x99_BIBERON.wav'
+15229,stdout,received,''
+15231,Stimulus,presented,0
+16231,Stimulus,created,11,BlankScreen,copied from 10
+16232,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DB45190>'
+16235,Picture,loaded,pictures\voiture.jpg
+16240,Picture,loaded,pictures\balle.jpg
+16255,Stimulus,presented,11
+16256,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_VOITURE.wav'
+23256,stdout,received,''
+23258,Stimulus,presented,0
+24258,Stimulus,created,16,BlankScreen,copied from 15
+24259,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DB45190>'
+24262,Picture,loaded,pictures\couche.jpg
+24266,Picture,loaded,pictures\main.jpg
+24281,Stimulus,presented,16
+24283,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+31283,stdout,received,''
+31285,Stimulus,presented,0
+34526,Experiment,ended
+34528,Data,saved

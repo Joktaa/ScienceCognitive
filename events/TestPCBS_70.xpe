@@ -1,0 +1,55 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 19:40:26
+#sha1: 6f24c0
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1251,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,result,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1251,design,logged,
+1251,Experiment,started
+1254,Stimulus,presented,0
+1254,Stimulus,created,6,BlankScreen,copied from 5
+1255,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D5A5160>'
+1259,Picture,loaded,pictures\biberon.jpg
+1264,Picture,loaded,pictures\livre.jpg
+1281,Stimulus,presented,6
+1282,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+4283,stdout,received,'bip bip'
+6283,stdout,received,'bop bop'
+6283,stdout,received,''
+6286,Stimulus,presented,0
+7286,Stimulus,created,11,BlankScreen,copied from 10
+7287,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D5A5160>'
+7290,Picture,loaded,pictures\biberon.jpg
+7294,Picture,loaded,pictures\livre.jpg
+7309,Stimulus,presented,11
+7310,Stimulus,played,b'sounds\\IL_O\xc3\x99_BIBERON.wav'
+10310,stdout,received,'bip bip'
+12310,stdout,received,'bop bop'
+12311,stdout,received,''
+12313,Stimulus,presented,0
+13313,Stimulus,created,16,BlankScreen,copied from 15
+13314,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D5A5160>'
+13317,Picture,loaded,pictures\couche.jpg
+13321,Picture,loaded,pictures\main.jpg
+13353,Stimulus,presented,16
+13354,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_COUCHE.wav'
+16355,stdout,received,'bip bip'
+18355,stdout,received,'bop bop'
+18355,stdout,received,''
+18358,Stimulus,presented,0
+19358,Stimulus,created,21,BlankScreen,copied from 20
+19359,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D5A5160>'
+19363,Picture,loaded,pictures\couche.jpg
+19367,Picture,loaded,pictures\main.jpg
+19383,Stimulus,presented,21
+19386,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+19387,Experiment,paused
+19394,Stimulus,presented,22
+22936,Keyboard,received,y,wait_char
+22936,Experiment,ended
+22940,Data,saved

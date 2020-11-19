@@ -1,0 +1,51 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 16:05:22
+#sha1: 6b0951
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+14714,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+14714,design,logged,
+14714,Experiment,started
+14718,Stimulus,presented,0
+14719,Stimulus,created,7,BlankScreen,copied from 6
+14719,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1EAE3100>'
+14743,Picture,loaded,pictures\nez.jpg
+14749,Picture,loaded,pictures\pied.jpg
+14800,Stimulus,presented,7
+14802,Stimulus,played,b'sounds\\IL_O\xc3\x99_PIED.wav'
+18889,Picture,loaded,pictures\nez.jpg
+18891,Picture,loaded,pictures\nez.jpg
+18893,Picture,loaded,pictures\pied.jpg
+18895,Picture,loaded,pictures\pied.jpg
+19311,Picture,loaded,pictures\nez.jpg
+19313,Picture,loaded,pictures\nez.jpg
+19313,TouchScreenButtonBox,received, button press,check
+19317,Stimulus,presented,0
+20317,Stimulus,created,12,BlankScreen,copied from 11
+20318,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1EAE3160>'
+20338,Picture,loaded,pictures\nez.jpg
+20344,Picture,loaded,pictures\pied.jpg
+20387,Stimulus,presented,12
+20388,Stimulus,played,b'sounds\\IL_O\xc3\x99_PIED.wav'
+23389,Experiment,paused
+23397,Stimulus,presented,13
+25257,Keyboard,received,n,wait_char
+25257,Experiment,resumed
+25265,Stimulus,presented,0
+26265,Stimulus,created,17,BlankScreen,copied from 16
+26266,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1EA9B538>'
+26287,Picture,loaded,pictures\biberon.jpg
+26295,Picture,loaded,pictures\livre.jpg
+26343,Stimulus,presented,17
+26346,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+29346,Experiment,paused
+29350,Stimulus,presented,18
+30047,Keyboard,received,y,wait_char
+30047,Experiment,ended
+30050,Data,saved
+30056,Stimulus,presented,18

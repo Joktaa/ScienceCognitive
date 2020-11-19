@@ -1,0 +1,9 @@
+﻿Sound,Image1,Image2
+ELLE_OÙ_COUCHE.wav,couche.jpg,main.jpg
+ELLE_OÙ_MAIN.wav,main.jpg,couche.jpg
+ELLE_OÙ_VOITURE.wav,voiture.jpg,balle.jpg
+IL_OÙ_BALLON.wav,balle.jpg,voiture.jpg
+IL_OÙ_BIBERON.wav,biberon.jpg,livre.jpg
+IL_OÙ_LIVRE.wav,livre.jpg,biberon.jpg
+IL_OÙ_NEZ.wav,nez.jpg,pied.jpg
+IL_OÙ_PIED.wav,pied.jpg,nez.jpg

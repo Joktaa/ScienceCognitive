@@ -1,0 +1,18 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 15:58:55
+#sha1: b4884e
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1176,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1176,design,logged,
+1176,Experiment,started
+1180,Stimulus,presented,0
+1180,stderr,received,'Traceback (most recent call last):'
+1181,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 51, in <module>'
+1184,stderr,received,'    for _, value in apparu.enumerate():'
+1207,stderr,received,"AttributeError: 'list' object has no attribute 'enumerate'"

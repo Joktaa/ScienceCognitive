@@ -1,0 +1,90 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 16:43:42
+#sha1: b6dfa9
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+2125,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+2125,design,logged,
+2125,Experiment,started
+2130,Stimulus,presented,0
+2130,Stimulus,created,6,BlankScreen,copied from 5
+2131,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x10F45028>'
+2135,Picture,loaded,pictures\couche.jpg
+2141,Picture,loaded,pictures\main.jpg
+2167,Stimulus,presented,6
+2169,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_COUCHE.wav'
+7684,Picture,loaded,pictures\couche.jpg
+7686,Picture,loaded,pictures\couche.jpg
+7686,TouchScreenButtonBox,received, button press,check
+7687,stdout,received,'<expyriment.stimuli._picture.Picture object at 0x10EEB460>'
+7687,stdout,received,'<expyriment.stimuli._picture.Picture object at 0x10EEB460>'
+7687,stdout,received,'<expyriment.stimuli._picture.Picture object at 0x10EEB508>'
+7689,Stimulus,presented,0
+8691,Stimulus,created,11,BlankScreen,copied from 10
+8692,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x10F45178>'
+8698,Picture,loaded,pictures\biberon.jpg
+8702,Picture,loaded,pictures\livre.jpg
+8723,Stimulus,presented,11
+8726,Stimulus,played,b'sounds\\IL_O\xc3\x99_BIBERON.wav'
+11809,Experiment,paused
+11813,Stimulus,presented,12
+13165,Keyboard,received,n,wait_char
+13165,Experiment,resumed
+13165,stdout,received,'None'
+13166,stdout,received,'<expyriment.stimuli._picture.Picture object at 0x11BCCA30>'
+13166,stdout,received,'<expyriment.stimuli._picture.Picture object at 0x10EEB3E8>'
+13168,Stimulus,presented,0
+14168,Stimulus,created,16,BlankScreen,copied from 15
+14169,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x10EEB3E8>'
+14172,Picture,loaded,pictures\couche.jpg
+14177,Picture,loaded,pictures\main.jpg
+14196,Stimulus,presented,16
+14198,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+21198,stdout,received,'None'
+21199,stdout,received,'<expyriment.stimuli._picture.Picture object at 0x10F45118>'
+21199,stdout,received,'<expyriment.stimuli._picture.Picture object at 0x10F450E8>'
+21202,Stimulus,presented,0
+22203,Stimulus,created,21,BlankScreen,copied from 20
+22203,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x10F45208>'
+22210,Picture,loaded,pictures\biberon.jpg
+22213,Picture,loaded,pictures\livre.jpg
+22231,Stimulus,presented,21
+22234,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+25234,Experiment,paused
+25237,Stimulus,presented,22
+26418,Keyboard,received,n,wait_char
+26418,Experiment,resumed
+26418,stdout,received,'None'
+26419,stdout,received,'<expyriment.stimuli._picture.Picture object at 0x10EEB460>'
+26419,stdout,received,'<expyriment.stimuli._picture.Picture object at 0x10F45238>'
+26424,Stimulus,presented,0
+27424,Stimulus,created,26,BlankScreen,copied from 25
+27425,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x10F45148>'
+27429,Picture,loaded,pictures\nez.jpg
+27432,Picture,loaded,pictures\pied.jpg
+27459,Stimulus,presented,26
+27462,Stimulus,played,b'sounds\\IL_O\xc3\x99_PIED.wav'
+30462,Experiment,paused
+30465,Stimulus,presented,27
+30942,Keyboard,received,n,wait_char
+30942,Experiment,resumed
+30943,stdout,received,'None'
+30943,stdout,received,'<expyriment.stimuli._picture.Picture object at 0x10F45190>'
+30943,stdout,received,'<expyriment.stimuli._picture.Picture object at 0x10F45178>'
+30945,Stimulus,presented,0
+31946,Stimulus,created,31,BlankScreen,copied from 30
+31946,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x10F451D8>'
+31952,Picture,loaded,pictures\couche.jpg
+31958,Picture,loaded,pictures\main.jpg
+31975,Stimulus,presented,31
+31977,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+34977,Experiment,paused
+34980,Stimulus,presented,32
+35788,Keyboard,received,y,wait_char
+35788,Experiment,ended
+35794,Data,saved

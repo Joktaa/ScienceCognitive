@@ -1,0 +1,24 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 17:52:08
+#sha1: 365be6
+#modules: stat.py (8f3442)
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+3309,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+3309,design,logged,
+3309,Experiment,started
+3312,Stimulus,presented,0
+3313,Stimulus,created,6,BlankScreen,copied from 5
+3313,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1CD0B6E8>'
+3317,Picture,loaded,pictures\nez.jpg
+3322,Picture,loaded,pictures\pied.jpg
+3341,Stimulus,presented,6
+3344,Stimulus,played,b'sounds\\IL_O\xc3\x99_NEZ.wav'
+10344,stderr,received,'Traceback (most recent call last):'
+10345,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 88, in <module>'
+10346,stderr,received,'    vraiOuFaux == "Faux"'
+10352,stderr,received,"NameError: name 'vraiOuFaux' is not defined"

@@ -1,0 +1,18 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 15:59:15
+#sha1: 963c13
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+934,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+934,design,logged,
+934,Experiment,started
+937,Stimulus,presented,0
+8203,stderr,received,'Traceback (most recent call last):'
+8208,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 50, in <module>'
+8211,stderr,received,'    nbr_aleatoire = randint(0, 15)'
+8212,stderr,received,'KeyboardInterrupt'

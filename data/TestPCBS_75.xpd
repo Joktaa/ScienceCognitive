@@ -1,0 +1,16 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpd-file, coding: cp1252
+#date: Fri Jan 17 2020 19:55:06
+#--EXPERIMENT INFO
+#e mainfile: TestPCBS.py
+#e sha1: c97014
+#e modules: 
+#e Experiment: sentence picture matching task
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 75
+subject_id,sound,picture1,picture2,result,rt
+75,ELLE_OÙ_VOITURE.wav,voiture.jpg,balle.jpg,Vrai,5794
+75,ELLE_OÙ_COUCHE.wav,couche.jpg,main.jpg,Faux,4744
+75,IL_OÙ_NEZ.wav,nez.jpg,pied.jpg,Faux,4945
+75,IL_OÙ_BIBERON.wav,biberon.jpg,livre.jpg,Vrai,4956
+75,ELLE_OÙ_VOITURE.wav,voiture.jpg,balle.jpg,Vrai,5241

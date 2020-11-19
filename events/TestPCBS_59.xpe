@@ -1,0 +1,51 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 18:52:50
+#sha1: 7593cd
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1724,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,result,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1724,design,logged,
+1724,Experiment,started
+1726,Stimulus,presented,0
+1726,Stimulus,created,6,BlankScreen,copied from 5
+1727,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DD46190>'
+1731,Picture,loaded,pictures\voiture.jpg
+1736,Picture,loaded,pictures\balle.jpg
+1756,Stimulus,presented,6
+1758,Stimulus,played,b'sounds\\IL_O\xc3\x99_BALLON.wav'
+8230,Picture,loaded,pictures\voiture.jpg
+8233,Picture,loaded,pictures\voiture.jpg
+8236,Picture,loaded,pictures\balle.jpg
+8238,Picture,loaded,pictures\balle.jpg
+8238,TouchScreenButtonBox,received, button press,check
+8239,stdout,received,''
+8241,Stimulus,presented,0
+9241,Stimulus,created,11,BlankScreen,copied from 10
+9241,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DD46568>'
+9245,Picture,loaded,pictures\biberon.jpg
+9250,Picture,loaded,pictures\livre.jpg
+9268,Stimulus,presented,11
+9270,Stimulus,played,b'sounds\\IL_O\xc3\x99_BIBERON.wav'
+15656,Picture,loaded,pictures\biberon.jpg
+15658,Picture,loaded,pictures\biberon.jpg
+15658,TouchScreenButtonBox,received, button press,check
+15659,stdout,received,'Vrai'
+15661,Stimulus,presented,0
+16661,Stimulus,created,16,BlankScreen,copied from 15
+16661,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DD46508>'
+16665,Picture,loaded,pictures\couche.jpg
+16669,Picture,loaded,pictures\main.jpg
+16683,Stimulus,presented,16
+16687,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_COUCHE.wav'
+22955,Picture,loaded,pictures\couche.jpg
+22957,Picture,loaded,pictures\couche.jpg
+22957,TouchScreenButtonBox,received, button press,check
+22958,stdout,received,'Vrai'
+22960,Stimulus,presented,0
+26206,Experiment,ended
+26209,Data,saved

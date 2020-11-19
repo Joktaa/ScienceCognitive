@@ -1,0 +1,54 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 19:06:05
+#sha1: e953d0
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+963,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,result,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+963,design,logged,
+963,Experiment,started
+966,Stimulus,presented,0
+966,Stimulus,created,6,BlankScreen,copied from 5
+967,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1E005160>'
+971,Picture,loaded,pictures\nez.jpg
+975,Picture,loaded,pictures\pied.jpg
+995,Stimulus,presented,6
+997,Stimulus,played,b'sounds\\IL_O\xc3\x99_PIED.wav'
+6259,Picture,loaded,pictures\nez.jpg
+6261,Picture,loaded,pictures\nez.jpg
+6263,Picture,loaded,pictures\pied.jpg
+6264,Picture,loaded,pictures\pied.jpg
+6265,TouchScreenButtonBox,received, button press,check
+6265,stdout,received,''
+6269,Stimulus,presented,0
+7269,Stimulus,created,11,BlankScreen,copied from 10
+7270,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1E005538>'
+7273,Picture,loaded,pictures\biberon.jpg
+7277,Picture,loaded,pictures\livre.jpg
+7293,Stimulus,presented,11
+7294,Stimulus,played,b'sounds\\IL_O\xc3\x99_BIBERON.wav'
+13188,Picture,loaded,pictures\biberon.jpg
+13190,Picture,loaded,pictures\biberon.jpg
+13190,TouchScreenButtonBox,received, button press,check
+13191,stdout,received,'Vrai'
+13193,Stimulus,presented,0
+14193,Stimulus,created,16,BlankScreen,copied from 15
+14193,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1E0054D8>'
+14197,Picture,loaded,pictures\couche.jpg
+14200,Picture,loaded,pictures\main.jpg
+14213,Stimulus,presented,16
+14214,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+20085,Picture,loaded,pictures\couche.jpg
+20087,Picture,loaded,pictures\couche.jpg
+20089,Picture,loaded,pictures\main.jpg
+20090,Picture,loaded,pictures\main.jpg
+20091,TouchScreenButtonBox,received, button press,check
+20091,stdout,received,'Vrai'
+20093,Stimulus,presented,0
+22918,stdout,received,"[['IL_OÙ_PIED.wav', '', 268], ['IL_OÙ_BIBERON.wav', 'Vrai', 896], ['ELLE_OÙ_MAIN.wav', 'Vrai', 877], ['', '', 0], ['', '', 0], ['', '', 0], ['', '', 0], ['', '', 0], ['', '', 0], ['', '', 0], ['', '', 0], ['', '', 0], ['', '', 0], ['', '', 0], ['', '', 0], ['', '', 0]]"
+22918,Experiment,ended
+22922,Data,saved

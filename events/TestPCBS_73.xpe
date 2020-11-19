@@ -1,0 +1,47 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 19:47:49
+#sha1: dfa931
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1258,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,result,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1258,design,logged,
+1258,Experiment,started
+1261,Stimulus,presented,0
+1261,Stimulus,created,6,BlankScreen,copied from 5
+1262,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x14175160>'
+1266,Picture,loaded,pictures\biberon.jpg
+1270,Picture,loaded,pictures\livre.jpg
+1289,Stimulus,presented,6
+1291,Stimulus,played,b'sounds\\IL_O\xc3\x99_BIBERON.wav'
+6862,Picture,loaded,pictures\biberon.jpg
+6864,Picture,loaded,pictures\biberon.jpg
+6864,TouchScreenButtonBox,received, button press,check
+6865,stdout,received,'Vrai'
+6867,Stimulus,presented,0
+7867,Stimulus,created,11,BlankScreen,copied from 10
+7867,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x14175538>'
+7871,Picture,loaded,pictures\couche.jpg
+7874,Picture,loaded,pictures\main.jpg
+7888,Stimulus,presented,11
+7890,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+14313,Picture,loaded,pictures\couche.jpg
+14315,Picture,loaded,pictures\couche.jpg
+14315,TouchScreenButtonBox,received, button press,check
+14316,stdout,received,'Vrai'
+14318,Stimulus,presented,0
+15318,Stimulus,created,16,BlankScreen,copied from 15
+15318,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x141754D8>'
+15323,Picture,loaded,pictures\biberon.jpg
+15328,Picture,loaded,pictures\livre.jpg
+15346,Stimulus,presented,16
+15349,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+15976,Experiment,paused
+15979,Stimulus,presented,17
+16900,Keyboard,received,y,wait_char
+16900,Experiment,ended
+16902,Data,saved

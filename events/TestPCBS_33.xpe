@@ -1,0 +1,28 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 17:47:58
+#sha1: 365d7f
+#modules: stat.py (8f3442)
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1826,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1826,design,logged,
+1826,Experiment,started
+1829,Stimulus,presented,0
+1829,Stimulus,created,6,BlankScreen,copied from 5
+1830,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1CA1B640>'
+1838,Picture,loaded,pictures\biberon.jpg
+1842,Picture,loaded,pictures\livre.jpg
+1861,Stimulus,presented,6
+1863,Stimulus,played,b'sounds\\IL_O\xc3\x99_BIBERON.wav'
+7033,Picture,loaded,pictures\biberon.jpg
+7035,Picture,loaded,pictures\biberon.jpg
+7035,TouchScreenButtonBox,received, button press,check
+7037,stderr,received,'Traceback (most recent call last):'
+7038,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 96, in <module>'
+7039,stderr,received,'    tabData[i][0] = courtSound'
+7044,stderr,received,'IndexError: list index out of range'
+7054,Data,saved

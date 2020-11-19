@@ -1,0 +1,20 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 15:33:35
+#sha1: 1c1239
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+769,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+769,design,logged,
+769,Experiment,started
+774,Stimulus,presented,0
+775,stderr,received,'Traceback (most recent call last):'
+776,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 112, in <module>'
+778,stderr,received,'    sound = expyriment.stimuli.Audio(tableau[nbr_aleatoire][0])'
+779,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\expyriment\\stimuli\\_audio.py", line 57, in __init__'
+780,stderr,received,'    raise IOError(u"The audio file {0} does not exists".format('
+781,stderr,received,'OSError: The audio file sounds"\\"ELLE_OÙ_COUCHE.wav does not exists'

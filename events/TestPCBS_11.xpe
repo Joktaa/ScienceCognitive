@@ -1,0 +1,29 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 15:41:00
+#sha1: d1b1f7
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1461,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1461,design,logged,
+1461,Experiment,started
+1464,Stimulus,presented,0
+1465,Stimulus,created,6,BlankScreen,copied from 5
+1465,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D604088>'
+1471,Picture,loaded,pictures\voiture.jpg
+1480,Picture,loaded,pictures\balle.jpg
+1517,Stimulus,presented,6
+1522,Stimulus,played,b'sounds\\IL_O\xc3\x99_BALLON.wav'
+16415,Picture,loaded,pictures\voiture.jpg
+16416,Picture,loaded,pictures\voiture.jpg
+16419,Picture,loaded,pictures\balle.jpg
+16421,Picture,loaded,pictures\balle.jpg
+16421,TouchScreenButtonBox,received, button press,check
+16423,stderr,received,'Traceback (most recent call last):'
+16425,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 66, in <module>'
+16435,stderr,received,'    exp.data.add([row.Sound,'
+16436,stderr,received,"NameError: name 'row' is not defined"

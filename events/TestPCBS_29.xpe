@@ -1,0 +1,30 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 16:33:36
+#sha1: a0ee8c
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1419,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1419,design,logged,
+1419,Experiment,started
+1422,Stimulus,presented,0
+1423,Stimulus,created,6,BlankScreen,copied from 5
+1423,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x111550A0>'
+1427,Picture,loaded,pictures\couche.jpg
+1431,Picture,loaded,pictures\main.jpg
+1454,Stimulus,presented,6
+1458,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+6867,stderr,received,'Traceback (most recent call last):'
+6867,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 80, in <module>'
+6868,stderr,received,'    response, rt = BB.wait(duration = 4000, button_fields=[courtImage1, courtImage2])'
+6876,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\expyriment\\io\\_touchscreenbuttonbox.py", line 289, in wait'
+6878,stderr,received,'    pressed_button_field, touch_time = self.check(button_fields)'
+6878,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\expyriment\\io\\_touchscreenbuttonbox.py", line 214, in check'
+6879,stderr,received,'    pressed_button_field = self._get_button_field(self._last_touch_position,'
+6879,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\expyriment\\io\\_touchscreenbuttonbox.py", line 228, in _get_button_field'
+6880,stderr,received,'    if bf.overlapping_with_position(position):'
+6880,stderr,received,"AttributeError: 'str' object has no attribute 'overlapping_with_position'"

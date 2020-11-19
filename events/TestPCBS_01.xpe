@@ -1,0 +1,15 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 14:37:18
+#sha1: 98ba57
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+23690,stderr,received,'Traceback (most recent call last):'
+23690,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 25, in <module>'
+23691,stderr,received,'    expyriment.control.start()'
+23692,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\expyriment\\control\\_experiment_control.py", line 214, in start'
+23693,stderr,received,'    experiment.keyboard.wait()'
+23693,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 343, in wait'
+23694,stderr,received,'    time.sleep(0.0005)'
+23694,stderr,received,'KeyboardInterrupt'

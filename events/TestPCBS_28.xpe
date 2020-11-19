@@ -1,0 +1,37 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 16:26:07
+#sha1: 2003c7
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1398,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1398,design,logged,
+1398,Experiment,started
+1402,Stimulus,presented,0
+1403,Stimulus,created,6,BlankScreen,copied from 5
+1403,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1E2250A0>'
+1411,Picture,loaded,pictures\biberon.jpg
+1420,Picture,loaded,pictures\livre.jpg
+1441,Stimulus,presented,6
+1443,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+6059,Picture,loaded,pictures\biberon.jpg
+6061,Picture,loaded,pictures\biberon.jpg
+6063,Picture,loaded,pictures\livre.jpg
+6065,Picture,loaded,pictures\livre.jpg
+6065,TouchScreenButtonBox,received, button press,check
+6067,Stimulus,presented,0
+7067,Stimulus,created,11,BlankScreen,copied from 10
+7067,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1E225178>'
+7071,Picture,loaded,pictures\nez.jpg
+7075,Picture,loaded,pictures\pied.jpg
+7104,Stimulus,presented,11
+7105,Stimulus,played,b'sounds\\IL_O\xc3\x99_PIED.wav'
+10105,Experiment,paused
+10109,Stimulus,presented,12
+10517,Keyboard,received,y,wait_char
+10518,Experiment,ended
+10520,Data,saved

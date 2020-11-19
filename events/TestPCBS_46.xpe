@@ -1,0 +1,65 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 18:15:18
+#sha1: e7ff23
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1249,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1249,design,logged,
+1249,Experiment,started
+1252,Stimulus,presented,0
+1253,Stimulus,created,6,BlankScreen,copied from 5
+1253,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D034178>'
+1257,Picture,loaded,pictures\nez.jpg
+1261,Picture,loaded,pictures\pied.jpg
+1280,Stimulus,presented,6
+1282,Stimulus,played,b'sounds\\IL_O\xc3\x99_PIED.wav'
+5837,Picture,loaded,pictures\nez.jpg
+5839,Picture,loaded,pictures\nez.jpg
+5841,Picture,loaded,pictures\pied.jpg
+5843,Picture,loaded,pictures\pied.jpg
+5843,TouchScreenButtonBox,received, button press,check
+5845,Stimulus,presented,0
+6845,Stimulus,created,11,BlankScreen,copied from 10
+6845,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D034550>'
+6849,Picture,loaded,pictures\couche.jpg
+6853,Picture,loaded,pictures\main.jpg
+6870,Stimulus,presented,11
+6872,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+11984,Picture,loaded,pictures\couche.jpg
+11986,Picture,loaded,pictures\couche.jpg
+11986,TouchScreenButtonBox,received, button press,check
+11989,Stimulus,presented,0
+12989,Stimulus,created,16,BlankScreen,copied from 15
+12989,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D0344F0>'
+12993,Picture,loaded,pictures\couche.jpg
+12998,Picture,loaded,pictures\main.jpg
+13014,Stimulus,presented,16
+13016,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+17452,Picture,loaded,pictures\couche.jpg
+17454,Picture,loaded,pictures\couche.jpg
+17457,Picture,loaded,pictures\main.jpg
+17459,Picture,loaded,pictures\main.jpg
+17460,TouchScreenButtonBox,received, button press,check
+17462,Stimulus,presented,0
+55691,stderr,received,'Traceback (most recent call last):'
+55692,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 116, in <module>'
+55692,stderr,received,'    analyse(tabData)'
+55693,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 15, in analyse'
+55699,stderr,received,'    plt.show()'
+55700,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\matplotlib\\pyplot.py", line 269, in show'
+55701,stderr,received,'    return _show(*args, **kw)'
+55702,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\matplotlib\\cbook\\deprecation.py", line 413, in wrapper'
+55703,stderr,received,'    return func(*args, **kwargs)'
+55703,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\matplotlib\\backend_bases.py", line 3309, in show'
+55704,stderr,received,'    cls.mainloop()'
+55705,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\matplotlib\\backends\\_backend_tk.py", line 981, in mainloop'
+55706,stderr,received,'    managers[0].window.mainloop()'
+55706,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\tkinter\\__init__.py", line 1420, in mainloop'
+55707,stderr,received,'    self.tk.mainloop(n)'
+55707,stderr,received,'KeyboardInterrupt'
+55708,Data,saved

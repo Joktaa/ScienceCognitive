@@ -1,0 +1,51 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 18:03:11
+#sha1: 783d10
+#modules: stat.py (4632c5)
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+2215,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+2215,design,logged,
+2215,Experiment,started
+2220,Stimulus,presented,0
+2221,Stimulus,created,6,BlankScreen,copied from 5
+2222,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1CDFC5B0>'
+2227,Picture,loaded,pictures\voiture.jpg
+2232,Picture,loaded,pictures\balle.jpg
+2247,Stimulus,presented,6
+2248,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_VOITURE.wav'
+7314,Picture,loaded,pictures\voiture.jpg
+7316,Picture,loaded,pictures\voiture.jpg
+7316,TouchScreenButtonBox,received, button press,check
+7318,Stimulus,presented,0
+8318,Stimulus,created,11,BlankScreen,copied from 10
+8318,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1CDFC3A0>'
+8323,Picture,loaded,pictures\nez.jpg
+8327,Picture,loaded,pictures\pied.jpg
+8342,Stimulus,presented,11
+8343,Stimulus,played,b'sounds\\IL_O\xc3\x99_NEZ.wav'
+13501,Picture,loaded,pictures\nez.jpg
+13502,Picture,loaded,pictures\nez.jpg
+13504,Picture,loaded,pictures\pied.jpg
+13506,Picture,loaded,pictures\pied.jpg
+13506,TouchScreenButtonBox,received, button press,check
+13508,Stimulus,presented,0
+14508,Stimulus,created,16,BlankScreen,copied from 15
+14508,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1CDFC490>'
+14512,Picture,loaded,pictures\voiture.jpg
+14516,Picture,loaded,pictures\balle.jpg
+14533,Stimulus,presented,16
+14536,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_VOITURE.wav'
+19698,Picture,loaded,pictures\voiture.jpg
+19700,Picture,loaded,pictures\voiture.jpg
+19700,TouchScreenButtonBox,received, button press,check
+19702,Stimulus,presented,0
+20702,stderr,received,'Traceback (most recent call last):'
+20703,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 105, in <module>'
+20703,stderr,received,'    analyse(tabData)'
+20709,stderr,received,"NameError: name 'analyse' is not defined"
+20712,Data,saved

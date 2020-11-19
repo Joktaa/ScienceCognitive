@@ -1,0 +1,103 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 16:01:54
+#sha1: f767db
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+2416,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+2416,design,logged,
+2416,Experiment,started
+2419,Stimulus,presented,0
+2420,Stimulus,created,6,BlankScreen,copied from 5
+2420,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x11A14088>'
+2424,Picture,loaded,pictures\couche.jpg
+2429,Picture,loaded,pictures\main.jpg
+2449,Stimulus,presented,6
+2452,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_COUCHE.wav'
+7783,Picture,loaded,pictures\couche.jpg
+7785,Picture,loaded,pictures\couche.jpg
+7787,Picture,loaded,pictures\main.jpg
+7789,Picture,loaded,pictures\main.jpg
+7789,TouchScreenButtonBox,received, button press,check
+7791,Stimulus,presented,0
+8791,Stimulus,created,11,BlankScreen,copied from 10
+8792,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x11A14118>'
+8802,Picture,loaded,pictures\biberon.jpg
+8808,Picture,loaded,pictures\livre.jpg
+8838,Stimulus,presented,11
+8841,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+15311,Picture,loaded,pictures\biberon.jpg
+15314,Picture,loaded,pictures\biberon.jpg
+15317,Picture,loaded,pictures\livre.jpg
+15319,Picture,loaded,pictures\livre.jpg
+16465,Picture,loaded,pictures\biberon.jpg
+16467,Picture,loaded,pictures\biberon.jpg
+16469,Picture,loaded,pictures\livre.jpg
+16471,Picture,loaded,pictures\livre.jpg
+16471,TouchScreenButtonBox,received, button press,check
+16478,Stimulus,presented,0
+17480,Stimulus,created,16,BlankScreen,copied from 15
+17481,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x11A14130>'
+17485,Picture,loaded,pictures\biberon.jpg
+17488,Picture,loaded,pictures\livre.jpg
+17514,Stimulus,presented,16
+17518,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+22835,Picture,loaded,pictures\biberon.jpg
+22837,Picture,loaded,pictures\biberon.jpg
+22839,Picture,loaded,pictures\livre.jpg
+22841,Picture,loaded,pictures\livre.jpg
+22841,TouchScreenButtonBox,received, button press,check
+22848,Stimulus,presented,0
+23848,Stimulus,created,21,BlankScreen,copied from 20
+23848,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x11A141C0>'
+23852,Picture,loaded,pictures\couche.jpg
+23856,Picture,loaded,pictures\main.jpg
+23882,Stimulus,presented,21
+23885,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+28826,Picture,loaded,pictures\couche.jpg
+28828,Picture,loaded,pictures\couche.jpg
+28831,Picture,loaded,pictures\main.jpg
+28832,Picture,loaded,pictures\main.jpg
+28833,TouchScreenButtonBox,received, button press,check
+28835,Stimulus,presented,0
+29835,Stimulus,created,26,BlankScreen,copied from 25
+29835,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x11A141A8>'
+29840,Picture,loaded,pictures\voiture.jpg
+29848,Picture,loaded,pictures\balle.jpg
+29869,Stimulus,presented,26
+29870,Stimulus,played,b'sounds\\IL_O\xc3\x99_BALLON.wav'
+34119,Picture,loaded,pictures\voiture.jpg
+34121,Picture,loaded,pictures\voiture.jpg
+34121,TouchScreenButtonBox,received, button press,check
+34127,Stimulus,presented,0
+35128,Stimulus,created,31,BlankScreen,copied from 30
+35128,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x11A140D0>'
+35134,Picture,loaded,pictures\nez.jpg
+35137,Picture,loaded,pictures\pied.jpg
+35163,Stimulus,presented,31
+35166,Stimulus,played,b'sounds\\IL_O\xc3\x99_NEZ.wav'
+41087,Picture,loaded,pictures\nez.jpg
+41089,Picture,loaded,pictures\nez.jpg
+41092,Picture,loaded,pictures\pied.jpg
+41094,Picture,loaded,pictures\pied.jpg
+41094,TouchScreenButtonBox,received, button press,check
+41096,Stimulus,presented,0
+42096,Stimulus,created,36,BlankScreen,copied from 35
+42096,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x11A14208>'
+42100,Picture,loaded,pictures\biberon.jpg
+42104,Picture,loaded,pictures\livre.jpg
+42128,Stimulus,presented,36
+42130,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+50194,stderr,received,'Traceback (most recent call last):'
+50195,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 68, in <module>'
+50196,stderr,received,'    response, rt = BB.wait()'
+50197,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\expyriment\\io\\_touchscreenbuttonbox.py", line 284, in wait'
+50197,stderr,received,'    _internals.active_exp.keyboard.process_control_keys():'
+50198,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 86, in process_control_keys'
+50198,stderr,received,'    for event in pygame.event.get(pygame.KEYDOWN):'
+50198,stderr,received,'KeyboardInterrupt'
+50200,Data,saved

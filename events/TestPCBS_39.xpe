@@ -1,0 +1,51 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 18:00:28
+#sha1: 9e81c8
+#modules: stat.py (8f3442)
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+6151,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+6151,design,logged,
+6151,Experiment,started
+6155,Stimulus,presented,0
+6155,Stimulus,created,6,BlankScreen,copied from 5
+6156,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D2BC838>'
+6160,Picture,loaded,pictures\nez.jpg
+6164,Picture,loaded,pictures\pied.jpg
+6183,Stimulus,presented,6
+6186,Stimulus,played,b'sounds\\IL_O\xc3\x99_NEZ.wav'
+10831,Picture,loaded,pictures\nez.jpg
+10833,Picture,loaded,pictures\nez.jpg
+10833,TouchScreenButtonBox,received, button press,check
+10835,Stimulus,presented,0
+11835,Stimulus,created,11,BlankScreen,copied from 10
+11835,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D2BC598>'
+11839,Picture,loaded,pictures\voiture.jpg
+11843,Picture,loaded,pictures\balle.jpg
+11857,Stimulus,presented,11
+11859,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_VOITURE.wav'
+16867,Picture,loaded,pictures\voiture.jpg
+16869,Picture,loaded,pictures\voiture.jpg
+16871,Picture,loaded,pictures\balle.jpg
+16873,Picture,loaded,pictures\balle.jpg
+16873,TouchScreenButtonBox,received, button press,check
+16875,Stimulus,presented,0
+17876,Stimulus,created,16,BlankScreen,copied from 15
+17876,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D2BC6B8>'
+17880,Picture,loaded,pictures\couche.jpg
+17885,Picture,loaded,pictures\main.jpg
+17897,Stimulus,presented,16
+17899,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+20917,Picture,loaded,pictures\couche.jpg
+20919,Picture,loaded,pictures\couche.jpg
+20919,TouchScreenButtonBox,received, button press,check
+20921,Stimulus,presented,0
+21922,stderr,received,'Traceback (most recent call last):'
+21922,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 105, in <module>'
+21923,stderr,received,'    stat.analyse(tabData)'
+21923,stderr,received,"NameError: name 'stat' is not defined"
+21925,Data,saved

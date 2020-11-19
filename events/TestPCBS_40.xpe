@@ -1,0 +1,51 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 18:01:59
+#sha1: 783d10
+#modules: stat.py (8f3442)
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1611,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1611,design,logged,
+1611,Experiment,started
+1615,Stimulus,presented,0
+1616,Stimulus,created,6,BlankScreen,copied from 5
+1616,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D26C880>'
+1621,Picture,loaded,pictures\biberon.jpg
+1624,Picture,loaded,pictures\livre.jpg
+1640,Stimulus,presented,6
+1641,Stimulus,played,b'sounds\\IL_O\xc3\x99_BIBERON.wav'
+7608,Picture,loaded,pictures\biberon.jpg
+7610,Picture,loaded,pictures\biberon.jpg
+7611,TouchScreenButtonBox,received, button press,check
+7613,Stimulus,presented,0
+8613,Stimulus,created,11,BlankScreen,copied from 10
+8613,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D26C508>'
+8617,Picture,loaded,pictures\biberon.jpg
+8621,Picture,loaded,pictures\livre.jpg
+8639,Stimulus,presented,11
+8643,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+13823,Picture,loaded,pictures\biberon.jpg
+13825,Picture,loaded,pictures\biberon.jpg
+13827,Picture,loaded,pictures\livre.jpg
+13830,Picture,loaded,pictures\livre.jpg
+13830,TouchScreenButtonBox,received, button press,check
+13832,Stimulus,presented,0
+14832,Stimulus,created,16,BlankScreen,copied from 15
+14832,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D26C5B0>'
+14836,Picture,loaded,pictures\couche.jpg
+14840,Picture,loaded,pictures\main.jpg
+14854,Stimulus,presented,16
+14858,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_COUCHE.wav'
+19553,Picture,loaded,pictures\couche.jpg
+19555,Picture,loaded,pictures\couche.jpg
+19555,TouchScreenButtonBox,received, button press,check
+19558,Stimulus,presented,0
+20558,stderr,received,'Traceback (most recent call last):'
+20558,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 105, in <module>'
+20559,stderr,received,'    analyse(tabData)'
+20559,stderr,received,"NameError: name 'analyse' is not defined"
+20561,Data,saved

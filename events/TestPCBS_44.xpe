@@ -1,0 +1,48 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 18:09:34
+#sha1: b0db38
+#modules: stat.py (4632c5)
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1877,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1877,design,logged,
+1877,Experiment,started
+1879,Stimulus,presented,0
+1879,Stimulus,created,6,BlankScreen,copied from 5
+1880,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1CC5C658>'
+1883,Picture,loaded,pictures\biberon.jpg
+1887,Picture,loaded,pictures\livre.jpg
+1906,Stimulus,presented,6
+1908,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+8910,Stimulus,presented,0
+9910,Stimulus,created,11,BlankScreen,copied from 10
+9911,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1CC5C658>'
+9916,Picture,loaded,pictures\voiture.jpg
+9922,Picture,loaded,pictures\balle.jpg
+9940,Stimulus,presented,11
+9941,Stimulus,played,b'sounds\\IL_O\xc3\x99_BALLON.wav'
+13258,Picture,loaded,pictures\voiture.jpg
+13259,Picture,loaded,pictures\voiture.jpg
+13260,TouchScreenButtonBox,received, button press,check
+13262,Stimulus,presented,0
+14262,Stimulus,created,16,BlankScreen,copied from 15
+14262,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1CC5C580>'
+14266,Picture,loaded,pictures\voiture.jpg
+14270,Picture,loaded,pictures\balle.jpg
+14287,Stimulus,presented,16
+14288,Stimulus,played,b'sounds\\IL_O\xc3\x99_BALLON.wav'
+17291,Picture,loaded,pictures\voiture.jpg
+17292,Picture,loaded,pictures\voiture.jpg
+17294,Picture,loaded,pictures\balle.jpg
+17296,Picture,loaded,pictures\balle.jpg
+17297,TouchScreenButtonBox,received, button press,check
+17299,Stimulus,presented,0
+18299,stderr,received,'Traceback (most recent call last):'
+18299,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 105, in <module>'
+18300,stderr,received,'    stat.analyse(tabData)'
+18300,stderr,received,"AttributeError: module 'stat' has no attribute 'analyse'"
+18303,Data,saved

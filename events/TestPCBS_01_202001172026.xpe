@@ -1,0 +1,209 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 20:26:56
+#sha1: 82f907
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+886543,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,result,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+886544,design,logged,
+886544,Experiment,started
+886548,Stimulus,presented,0
+886550,Stimulus,created,7,BlankScreen,copied from 6
+886550,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x12A487A8>'
+886565,Picture,loaded,pictures\biberon.jpg
+886571,Picture,loaded,pictures\livre.jpg
+886603,Stimulus,presented,7
+886605,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+892601,Picture,loaded,pictures\biberon.jpg
+892603,Picture,loaded,pictures\biberon.jpg
+892604,Picture,loaded,pictures\livre.jpg
+892606,Picture,loaded,pictures\livre.jpg
+892606,TouchScreenButtonBox,received, button press,check
+892607,stdout,received,'Vrai'
+892610,Stimulus,presented,0
+893610,Stimulus,created,12,BlankScreen,copied from 11
+893610,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x12531130>'
+893623,Picture,loaded,pictures\couche.jpg
+893627,Picture,loaded,pictures\main.jpg
+893663,Stimulus,presented,12
+893664,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+898135,Picture,loaded,pictures\couche.jpg
+898136,Picture,loaded,pictures\couche.jpg
+898138,Picture,loaded,pictures\main.jpg
+898140,Picture,loaded,pictures\main.jpg
+898140,TouchScreenButtonBox,received, button press,check
+898141,stdout,received,'Vrai'
+898144,Stimulus,presented,0
+899144,Stimulus,created,17,BlankScreen,copied from 16
+899144,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x12A487A8>'
+899158,Picture,loaded,pictures\nez.jpg
+899162,Picture,loaded,pictures\pied.jpg
+899196,Stimulus,presented,17
+899197,Stimulus,played,b'sounds\\IL_O\xc3\x99_NEZ.wav'
+905770,Picture,loaded,pictures\nez.jpg
+905772,Picture,loaded,pictures\nez.jpg
+905773,Picture,loaded,pictures\pied.jpg
+905775,Picture,loaded,pictures\pied.jpg
+905775,TouchScreenButtonBox,received, button press,check
+905776,stdout,received,'Faux'
+905779,Stimulus,presented,0
+906779,Stimulus,created,22,BlankScreen,copied from 21
+906779,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1EDF7250>'
+906794,Picture,loaded,pictures\nez.jpg
+906798,Picture,loaded,pictures\pied.jpg
+906829,Stimulus,presented,22
+906830,Stimulus,played,b'sounds\\IL_O\xc3\x99_NEZ.wav'
+908772,Picture,loaded,pictures\nez.jpg
+908774,Picture,loaded,pictures\nez.jpg
+908774,TouchScreenButtonBox,received, button press,check
+908775,stdout,received,'Vrai'
+908778,Stimulus,presented,0
+909778,Stimulus,created,27,BlankScreen,copied from 26
+909778,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1EDF77A8>'
+909794,Picture,loaded,pictures\biberon.jpg
+909798,Picture,loaded,pictures\livre.jpg
+909829,Stimulus,presented,27
+909831,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+915184,Picture,loaded,pictures\biberon.jpg
+915186,Picture,loaded,pictures\biberon.jpg
+915188,Picture,loaded,pictures\livre.jpg
+915189,Picture,loaded,pictures\livre.jpg
+915190,TouchScreenButtonBox,received, button press,check
+915190,stdout,received,'Vrai'
+915193,Stimulus,presented,0
+916194,Stimulus,created,32,BlankScreen,copied from 31
+916194,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1EDF7850>'
+916209,Picture,loaded,pictures\couche.jpg
+916212,Picture,loaded,pictures\main.jpg
+916260,Stimulus,presented,32
+916261,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_COUCHE.wav'
+921287,Picture,loaded,pictures\couche.jpg
+921289,Picture,loaded,pictures\couche.jpg
+921289,TouchScreenButtonBox,received, button press,check
+921290,stdout,received,'Vrai'
+921293,Stimulus,presented,0
+922293,Stimulus,created,37,BlankScreen,copied from 36
+922293,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1EDF7940>'
+922309,Picture,loaded,pictures\voiture.jpg
+922312,Picture,loaded,pictures\balle.jpg
+922344,Stimulus,presented,37
+922345,Stimulus,played,b'sounds\\IL_O\xc3\x99_BALLON.wav'
+928181,Picture,loaded,pictures\voiture.jpg
+928183,Picture,loaded,pictures\voiture.jpg
+928185,Picture,loaded,pictures\balle.jpg
+928187,Picture,loaded,pictures\balle.jpg
+928187,TouchScreenButtonBox,received, button press,check
+928188,stdout,received,'Vrai'
+928191,Stimulus,presented,0
+929191,Stimulus,created,42,BlankScreen,copied from 41
+929191,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1EDF7910>'
+929204,Picture,loaded,pictures\biberon.jpg
+929209,Picture,loaded,pictures\livre.jpg
+929238,Stimulus,presented,42
+929239,Stimulus,played,b'sounds\\IL_O\xc3\x99_BIBERON.wav'
+934098,Picture,loaded,pictures\biberon.jpg
+934100,Picture,loaded,pictures\biberon.jpg
+934100,TouchScreenButtonBox,received, button press,check
+934101,stdout,received,'Vrai'
+934104,Stimulus,presented,0
+935104,Stimulus,created,47,BlankScreen,copied from 46
+935104,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1EDF7898>'
+935117,Picture,loaded,pictures\voiture.jpg
+935122,Picture,loaded,pictures\balle.jpg
+935153,Stimulus,presented,47
+935154,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_VOITURE.wav'
+940127,Picture,loaded,pictures\voiture.jpg
+940129,Picture,loaded,pictures\voiture.jpg
+940129,TouchScreenButtonBox,received, button press,check
+940130,stdout,received,'Vrai'
+940133,Stimulus,presented,0
+941133,Stimulus,created,52,BlankScreen,copied from 51
+941133,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1EDF7130>'
+941148,Picture,loaded,pictures\nez.jpg
+941152,Picture,loaded,pictures\pied.jpg
+941202,Stimulus,presented,52
+941203,Stimulus,played,b'sounds\\IL_O\xc3\x99_PIED.wav'
+945670,Picture,loaded,pictures\nez.jpg
+945672,Picture,loaded,pictures\nez.jpg
+945673,Picture,loaded,pictures\pied.jpg
+945675,Picture,loaded,pictures\pied.jpg
+945675,TouchScreenButtonBox,received, button press,check
+945676,stdout,received,'Vrai'
+945679,Stimulus,presented,0
+946679,Stimulus,created,57,BlankScreen,copied from 56
+946679,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1EDF7910>'
+946693,Picture,loaded,pictures\biberon.jpg
+946696,Picture,loaded,pictures\livre.jpg
+946727,Stimulus,presented,57
+946729,Stimulus,played,b'sounds\\IL_O\xc3\x99_BIBERON.wav'
+951689,Picture,loaded,pictures\biberon.jpg
+951691,Picture,loaded,pictures\biberon.jpg
+951693,Picture,loaded,pictures\livre.jpg
+951694,Picture,loaded,pictures\livre.jpg
+951695,TouchScreenButtonBox,received, button press,check
+951695,stdout,received,'Faux'
+951698,Stimulus,presented,0
+952698,Stimulus,created,62,BlankScreen,copied from 61
+952698,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1EDF79B8>'
+952713,Picture,loaded,pictures\couche.jpg
+952717,Picture,loaded,pictures\main.jpg
+952749,Stimulus,presented,62
+952750,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+958110,Picture,loaded,pictures\couche.jpg
+958112,Picture,loaded,pictures\couche.jpg
+958113,Picture,loaded,pictures\main.jpg
+958115,Picture,loaded,pictures\main.jpg
+958115,TouchScreenButtonBox,received, button press,check
+958116,stdout,received,'Vrai'
+958119,Stimulus,presented,0
+959120,Stimulus,created,67,BlankScreen,copied from 66
+959120,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1EDF7250>'
+959134,Picture,loaded,pictures\nez.jpg
+959138,Picture,loaded,pictures\pied.jpg
+959181,Stimulus,presented,67
+959182,Stimulus,played,b'sounds\\IL_O\xc3\x99_PIED.wav'
+964344,Picture,loaded,pictures\nez.jpg
+964346,Picture,loaded,pictures\nez.jpg
+964346,TouchScreenButtonBox,received, button press,check
+964347,stdout,received,'Faux'
+964350,Stimulus,presented,0
+965350,Stimulus,created,72,BlankScreen,copied from 71
+965350,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x12A48640>'
+965364,Picture,loaded,pictures\voiture.jpg
+965368,Picture,loaded,pictures\balle.jpg
+965399,Stimulus,presented,72
+965400,Stimulus,played,b'sounds\\IL_O\xc3\x99_BALLON.wav'
+971007,Picture,loaded,pictures\voiture.jpg
+971009,Picture,loaded,pictures\voiture.jpg
+971009,TouchScreenButtonBox,received, button press,check
+971010,stdout,received,'Faux'
+971013,Stimulus,presented,0
+972013,Stimulus,created,77,BlankScreen,copied from 76
+972013,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1EDF7250>'
+972027,Picture,loaded,pictures\couche.jpg
+972031,Picture,loaded,pictures\main.jpg
+972062,Stimulus,presented,77
+972063,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_COUCHE.wav'
+977629,Picture,loaded,pictures\couche.jpg
+977631,Picture,loaded,pictures\couche.jpg
+977631,TouchScreenButtonBox,received, button press,check
+977632,stdout,received,'Vrai'
+977636,Stimulus,presented,0
+978636,Stimulus,created,82,BlankScreen,copied from 81
+978636,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1EDF7898>'
+978651,Picture,loaded,pictures\voiture.jpg
+978655,Picture,loaded,pictures\balle.jpg
+978686,Stimulus,presented,82
+978687,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_VOITURE.wav'
+983782,Picture,loaded,pictures\voiture.jpg
+983784,Picture,loaded,pictures\voiture.jpg
+983784,TouchScreenButtonBox,received, button press,check
+983785,stdout,received,'Vrai'
+983788,Stimulus,presented,0
+984788,Experiment,ended
+984810,Data,saved
+984817,Stimulus,presented,83

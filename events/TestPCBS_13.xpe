@@ -1,0 +1,37 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 15:49:28
+#sha1: 6e3420
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+2836,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+2836,design,logged,
+2836,Experiment,started
+2842,Stimulus,presented,0
+2843,Stimulus,created,6,BlankScreen,copied from 5
+2843,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DD74088>'
+2847,Picture,loaded,pictures\couche.jpg
+2852,Picture,loaded,pictures\main.jpg
+2877,Stimulus,presented,6
+2879,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+8018,Picture,loaded,pictures\couche.jpg
+8019,Picture,loaded,pictures\couche.jpg
+8022,Picture,loaded,pictures\main.jpg
+8024,Picture,loaded,pictures\main.jpg
+9445,Picture,loaded,pictures\couche.jpg
+9447,Picture,loaded,pictures\couche.jpg
+9450,Picture,loaded,pictures\main.jpg
+9452,Picture,loaded,pictures\main.jpg
+9453,TouchScreenButtonBox,received, button press,check
+9456,Stimulus,presented,0
+10456,stderr,received,'Traceback (most recent call last):'
+10456,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 52, in <module>'
+10457,stderr,received,'    while lenTab(apparu) < 16:'
+10468,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 14, in lenTab'
+10470,stderr,received,'    for _ in tableau:'
+10471,stderr,received,"TypeError: 'NoneType' object is not iterable"
+10481,Data,saved

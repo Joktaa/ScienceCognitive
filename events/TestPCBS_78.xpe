@@ -1,0 +1,53 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Sat Jan 18 2020 00:12:36
+#sha1: 523ec4
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+3635,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,result,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+3635,design,logged,
+3635,Experiment,started
+3638,Stimulus,presented,0
+3638,Stimulus,created,6,BlankScreen,copied from 5
+3639,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DBD8160>'
+3643,Picture,loaded,pictures\voiture.jpg
+3648,Picture,loaded,pictures\balle.jpg
+3676,Stimulus,presented,6
+3678,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_VOITURE.wav'
+4796,Picture,loaded,pictures\voiture.jpg
+4798,Picture,loaded,pictures\voiture.jpg
+4801,Picture,loaded,pictures\balle.jpg
+4804,Picture,loaded,pictures\balle.jpg
+4804,TouchScreenButtonBox,received, button press,check
+4805,stdout,received,'Faux'
+4807,Stimulus,presented,0
+5807,Stimulus,created,11,BlankScreen,copied from 10
+5807,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DBD8538>'
+5811,Picture,loaded,pictures\couche.jpg
+5815,Picture,loaded,pictures\main.jpg
+5829,Stimulus,presented,11
+5834,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+6067,Picture,loaded,pictures\couche.jpg
+6069,Picture,loaded,pictures\couche.jpg
+6069,TouchScreenButtonBox,received, button press,check
+6070,stdout,received,'Faux'
+6071,Stimulus,presented,0
+7071,Stimulus,created,16,BlankScreen,copied from 15
+7071,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DBD8508>'
+7075,Picture,loaded,pictures\couche.jpg
+7079,Picture,loaded,pictures\main.jpg
+7105,Stimulus,presented,16
+7108,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_COUCHE.wav'
+7336,Picture,loaded,pictures\couche.jpg
+7338,Picture,loaded,pictures\couche.jpg
+7340,Picture,loaded,pictures\main.jpg
+7342,Picture,loaded,pictures\main.jpg
+7342,TouchScreenButtonBox,received, button press,check
+7343,stdout,received,'Faux'
+7349,Stimulus,presented,0
+8349,Experiment,ended
+8352,Data,saved

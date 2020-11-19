@@ -1,0 +1,42 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 19:03:29
+#sha1: 248028
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1531,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,result,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1531,design,logged,
+1531,Experiment,started
+1534,Stimulus,presented,0
+1534,Stimulus,created,6,BlankScreen,copied from 5
+1535,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DBA6160>'
+1541,Picture,loaded,pictures\voiture.jpg
+1545,Picture,loaded,pictures\balle.jpg
+1563,Stimulus,presented,6
+1565,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_VOITURE.wav'
+7060,Picture,loaded,pictures\voiture.jpg
+7062,Picture,loaded,pictures\voiture.jpg
+7062,TouchScreenButtonBox,received, button press,check
+7062,stdout,received,'Vrai'
+7064,Stimulus,presented,0
+8064,Stimulus,created,11,BlankScreen,copied from 10
+8064,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DBA6538>'
+8068,Picture,loaded,pictures\biberon.jpg
+8071,Picture,loaded,pictures\livre.jpg
+8087,Stimulus,presented,11
+8088,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+14088,Picture,loaded,pictures\biberon.jpg
+14089,Picture,loaded,pictures\biberon.jpg
+14091,Picture,loaded,pictures\livre.jpg
+14093,Picture,loaded,pictures\livre.jpg
+14093,TouchScreenButtonBox,received, button press,check
+14094,stdout,received,'Vrai'
+14095,stderr,received,'Traceback (most recent call last):'
+14095,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 111, in <module>'
+14095,stderr,received,'    tabData[i][0] = courtSound'
+14100,stderr,received,'IndexError: list index out of range'
+14102,Data,saved

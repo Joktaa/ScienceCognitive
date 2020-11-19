@@ -1,0 +1,18 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 15:33:04
+#sha1: ba580f
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+926,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+927,design,logged,
+927,Experiment,started
+929,Stimulus,presented,0
+929,stderr,received,'Traceback (most recent call last):'
+930,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 111, in <module>'
+931,stderr,received,'    apparu = apparu.append(nombre_aleatoire)'
+945,stderr,received,"NameError: name 'nombre_aleatoire' is not defined"

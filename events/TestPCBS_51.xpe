@@ -1,0 +1,55 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 18:42:36
+#sha1: 17f98f
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1417,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,result,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1417,design,logged,
+1417,Experiment,started
+1419,Stimulus,presented,0
+1420,Stimulus,created,6,BlankScreen,copied from 5
+1421,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x14955190>'
+1426,Picture,loaded,pictures\voiture.jpg
+1430,Picture,loaded,pictures\balle.jpg
+1451,Stimulus,presented,6
+1453,Stimulus,played,b'sounds\\IL_O\xc3\x99_BALLON.wav'
+5917,Picture,loaded,pictures\voiture.jpg
+5919,Picture,loaded,pictures\voiture.jpg
+5921,Picture,loaded,pictures\balle.jpg
+5923,Picture,loaded,pictures\balle.jpg
+5924,TouchScreenButtonBox,received, button press,check
+5924,stdout,received,''
+5926,Stimulus,presented,0
+6926,Stimulus,created,11,BlankScreen,copied from 10
+6927,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x14955568>'
+6931,Picture,loaded,pictures\biberon.jpg
+6935,Picture,loaded,pictures\livre.jpg
+6950,Stimulus,presented,11
+6952,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+12404,Picture,loaded,pictures\biberon.jpg
+12405,Picture,loaded,pictures\biberon.jpg
+12408,Picture,loaded,pictures\livre.jpg
+12410,Picture,loaded,pictures\livre.jpg
+12410,TouchScreenButtonBox,received, button press,check
+12411,stdout,received,''
+12414,Stimulus,presented,0
+13414,Stimulus,created,16,BlankScreen,copied from 15
+13414,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x14955508>'
+13418,Picture,loaded,pictures\nez.jpg
+13422,Picture,loaded,pictures\pied.jpg
+13444,Stimulus,presented,16
+13447,Stimulus,played,b'sounds\\IL_O\xc3\x99_PIED.wav'
+18727,Picture,loaded,pictures\nez.jpg
+18729,Picture,loaded,pictures\nez.jpg
+18731,Picture,loaded,pictures\pied.jpg
+18733,Picture,loaded,pictures\pied.jpg
+18733,TouchScreenButtonBox,received, button press,check
+18734,stdout,received,''
+18737,Stimulus,presented,0
+22073,Experiment,ended
+22075,Data,saved

@@ -1,0 +1,48 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 18:39:20
+#sha1: f8ea67
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+10623,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,result,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+10623,design,logged,
+10623,Experiment,started
+10625,Stimulus,presented,0
+10626,Stimulus,created,6,BlankScreen,copied from 5
+10626,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1CE45190>'
+10631,Picture,loaded,pictures\voiture.jpg
+10635,Picture,loaded,pictures\balle.jpg
+10653,Stimulus,presented,6
+10655,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_VOITURE.wav'
+15323,Picture,loaded,pictures\voiture.jpg
+15325,Picture,loaded,pictures\voiture.jpg
+15325,TouchScreenButtonBox,received, button press,check
+15328,Stimulus,presented,0
+16328,Stimulus,created,11,BlankScreen,copied from 10
+16328,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1CE45568>'
+16332,Picture,loaded,pictures\voiture.jpg
+16336,Picture,loaded,pictures\balle.jpg
+16351,Stimulus,presented,11
+16353,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_VOITURE.wav'
+20803,Picture,loaded,pictures\voiture.jpg
+20804,Picture,loaded,pictures\voiture.jpg
+20804,TouchScreenButtonBox,received, button press,check
+20807,Stimulus,presented,0
+21807,Stimulus,created,16,BlankScreen,copied from 15
+21807,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1CE45508>'
+21811,Picture,loaded,pictures\voiture.jpg
+21815,Picture,loaded,pictures\balle.jpg
+21828,Stimulus,presented,16
+21830,Stimulus,played,b'sounds\\IL_O\xc3\x99_BALLON.wav'
+26356,Picture,loaded,pictures\voiture.jpg
+26358,Picture,loaded,pictures\voiture.jpg
+26360,Picture,loaded,pictures\balle.jpg
+26362,Picture,loaded,pictures\balle.jpg
+26363,TouchScreenButtonBox,received, button press,check
+26365,Stimulus,presented,0
+46892,Experiment,ended
+46899,Data,saved

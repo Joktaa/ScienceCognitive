@@ -1,0 +1,24 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 18:38:52
+#sha1: f8ea67
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1639,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,result,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1639,design,logged,
+1639,Experiment,started
+1641,Stimulus,presented,0
+1642,Stimulus,created,6,BlankScreen,copied from 5
+1643,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D585190>'
+1648,Picture,loaded,pictures\voiture.jpg
+1653,Picture,loaded,pictures\balle.jpg
+1671,Stimulus,presented,6
+1673,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_VOITURE.wav'
+8130,Experiment,paused
+8138,Stimulus,presented,7
+8968,Keyboard,received,y,wait_char
+8968,Experiment,ended

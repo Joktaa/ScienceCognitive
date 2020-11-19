@@ -1,0 +1,53 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 18:40:42
+#sha1: 17f98f
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1598,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,result,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1598,design,logged,
+1598,Experiment,started
+1601,Stimulus,presented,0
+1602,Stimulus,created,6,BlankScreen,copied from 5
+1602,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D066190>'
+1606,Picture,loaded,pictures\voiture.jpg
+1611,Picture,loaded,pictures\balle.jpg
+1628,Stimulus,presented,6
+1629,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_VOITURE.wav'
+6631,Picture,loaded,pictures\voiture.jpg
+6633,Picture,loaded,pictures\voiture.jpg
+6634,TouchScreenButtonBox,received, button press,check
+6634,stdout,received,'Vrai'
+6637,Stimulus,presented,0
+7637,Stimulus,created,11,BlankScreen,copied from 10
+7637,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D066568>'
+7641,Picture,loaded,pictures\voiture.jpg
+7645,Picture,loaded,pictures\balle.jpg
+7663,Stimulus,presented,11
+7665,Stimulus,played,b'sounds\\IL_O\xc3\x99_BALLON.wav'
+11876,Picture,loaded,pictures\voiture.jpg
+11877,Picture,loaded,pictures\voiture.jpg
+11879,Picture,loaded,pictures\balle.jpg
+11882,Picture,loaded,pictures\balle.jpg
+11882,TouchScreenButtonBox,received, button press,check
+11883,stdout,received,''
+11885,Stimulus,presented,0
+12885,Stimulus,created,16,BlankScreen,copied from 15
+12885,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D066508>'
+12889,Picture,loaded,pictures\couche.jpg
+12892,Picture,loaded,pictures\main.jpg
+12908,Stimulus,presented,16
+12911,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+17877,Picture,loaded,pictures\couche.jpg
+17879,Picture,loaded,pictures\couche.jpg
+17881,Picture,loaded,pictures\main.jpg
+17883,Picture,loaded,pictures\main.jpg
+17883,TouchScreenButtonBox,received, button press,check
+17884,stdout,received,''
+17886,Stimulus,presented,0
+21899,Experiment,ended
+21904,Data,saved

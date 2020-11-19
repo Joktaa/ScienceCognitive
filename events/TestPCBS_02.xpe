@@ -1,0 +1,39 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 14:38:25
+#sha1: 98ba57
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+7137,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+7137,design,logged,
+7137,Experiment,started
+7140,Stimulus,presented,0
+7141,Stimulus,created,6,BlankScreen,copied from 5
+7141,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x10E91190>'
+7147,Picture,loaded,pictures\couche.jpg
+7154,Picture,loaded,pictures\main.jpg
+7188,Stimulus,presented,6
+7194,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_COUCHE.wav'
+10789,Picture,loaded,pictures\couche.jpg
+10791,Picture,loaded,pictures\couche.jpg
+10793,Picture,loaded,pictures\main.jpg
+10796,Picture,loaded,pictures\main.jpg
+10796,TouchScreenButtonBox,received, button press,check
+10800,Stimulus,presented,0
+11801,Stimulus,created,11,BlankScreen,copied from 10
+11803,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x10E912C8>'
+11811,Picture,loaded,pictures\main.jpg
+11815,Picture,loaded,pictures\couche.jpg
+11925,Stimulus,presented,11
+11927,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+14635,stderr,received,'Traceback (most recent call last):'
+14636,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 38, in <module>'
+14638,stderr,received,'    exp.clock.wait(3000)'
+14645,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\expyriment\\misc\\_clock.py", line 157, in wait'
+14645,stderr,received,'    pygame.event.pump()'
+14646,stderr,received,'KeyboardInterrupt'
+14649,Data,saved

@@ -1,0 +1,28 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 15:35:07
+#sha1: be6f5b
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1200,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1200,design,logged,
+1200,Experiment,started
+1203,Stimulus,presented,0
+1204,Stimulus,created,6,BlankScreen,copied from 5
+1205,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DA62088>'
+1212,Picture,loaded,pictures\couche.jpg
+1217,Picture,loaded,pictures\main.jpg
+1245,Stimulus,presented,6
+1247,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_COUCHE.wav'
+6747,stderr,received,'Traceback (most recent call last):'
+6748,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 122, in <module>'
+6749,stderr,received,'    response, rt = BB.wait()'
+6758,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\expyriment\\io\\_touchscreenbuttonbox.py", line 284, in wait'
+6761,stderr,received,'    _internals.active_exp.keyboard.process_control_keys():'
+6762,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 86, in process_control_keys'
+6764,stderr,received,'    for event in pygame.event.get(pygame.KEYDOWN):'
+6764,stderr,received,'KeyboardInterrupt'

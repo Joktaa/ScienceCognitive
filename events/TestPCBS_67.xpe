@@ -1,0 +1,36 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 19:35:10
+#sha1: 58e9ea
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1634,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,result,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1634,design,logged,
+1634,Experiment,started
+1637,Stimulus,presented,0
+1637,Stimulus,created,6,BlankScreen,copied from 5
+1637,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D2C5160>'
+1642,Picture,loaded,pictures\couche.jpg
+1646,Picture,loaded,pictures\main.jpg
+1667,Stimulus,presented,6
+1668,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_COUCHE.wav'
+6668,stdout,received,'bip bip'
+9668,stdout,received,'bop bop'
+9669,stdout,received,''
+9671,Stimulus,presented,0
+10671,Stimulus,created,11,BlankScreen,copied from 10
+10672,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D2C5160>'
+10676,Picture,loaded,pictures\nez.jpg
+10681,Picture,loaded,pictures\pied.jpg
+10698,Stimulus,presented,11
+10700,Stimulus,played,b'sounds\\IL_O\xc3\x99_NEZ.wav'
+15700,stdout,received,'bip bip'
+15701,Experiment,paused
+15706,Stimulus,presented,12
+16855,Keyboard,received,y,wait_char
+16856,Experiment,ended
+16859,Data,saved

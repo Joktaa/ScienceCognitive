@@ -1,0 +1,49 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 18:49:57
+#sha1: 356667
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+3147,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,result,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+3147,design,logged,
+3147,Experiment,started
+3149,Stimulus,presented,0
+3150,Stimulus,created,6,BlankScreen,copied from 5
+3150,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x14415190>'
+3154,Picture,loaded,pictures\biberon.jpg
+3159,Picture,loaded,pictures\livre.jpg
+3177,Stimulus,presented,6
+3179,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+7981,Picture,loaded,pictures\biberon.jpg
+7983,Picture,loaded,pictures\biberon.jpg
+7985,Picture,loaded,pictures\livre.jpg
+7986,Picture,loaded,pictures\livre.jpg
+7987,TouchScreenButtonBox,received, button press,check
+7987,stdout,received,''
+7989,Stimulus,presented,0
+8990,Stimulus,created,11,BlankScreen,copied from 10
+8990,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x14415568>'
+8994,Picture,loaded,pictures\nez.jpg
+8998,Picture,loaded,pictures\pied.jpg
+9013,Stimulus,presented,11
+9017,Stimulus,played,b'sounds\\IL_O\xc3\x99_NEZ.wav'
+14341,Picture,loaded,pictures\nez.jpg
+14343,Picture,loaded,pictures\nez.jpg
+14343,TouchScreenButtonBox,received, button press,check
+14344,stdout,received,'Vrai'
+14346,Stimulus,presented,0
+15346,Stimulus,created,16,BlankScreen,copied from 15
+15347,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x14415508>'
+15351,Picture,loaded,pictures\couche.jpg
+15355,Picture,loaded,pictures\main.jpg
+15369,Stimulus,presented,16
+15370,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_COUCHE.wav'
+19450,Experiment,paused
+19458,Stimulus,presented,17
+20418,Keyboard,received,y,wait_char
+20418,Experiment,ended
+20422,Data,saved

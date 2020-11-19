@@ -1,0 +1,53 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 19:20:11
+#sha1: a912a1
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1555,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,result,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1555,design,logged,
+1555,Experiment,started
+1558,Stimulus,presented,0
+1558,Stimulus,created,6,BlankScreen,copied from 5
+1559,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DC16160>'
+1563,Picture,loaded,pictures\biberon.jpg
+1567,Picture,loaded,pictures\livre.jpg
+1586,Stimulus,presented,6
+1588,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+7436,Picture,loaded,pictures\biberon.jpg
+7438,Picture,loaded,pictures\biberon.jpg
+7440,Picture,loaded,pictures\livre.jpg
+7442,Picture,loaded,pictures\livre.jpg
+7442,TouchScreenButtonBox,received, button press,check
+7443,stdout,received,''
+7445,Stimulus,presented,0
+8445,Stimulus,created,11,BlankScreen,copied from 10
+8445,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DC16538>'
+8449,Picture,loaded,pictures\nez.jpg
+8452,Picture,loaded,pictures\pied.jpg
+8469,Stimulus,presented,11
+8470,Stimulus,played,b'sounds\\IL_O\xc3\x99_NEZ.wav'
+14365,Picture,loaded,pictures\nez.jpg
+14367,Picture,loaded,pictures\nez.jpg
+14367,TouchScreenButtonBox,received, button press,check
+14368,stdout,received,'Vrai'
+14370,Stimulus,presented,0
+15370,Stimulus,created,16,BlankScreen,copied from 15
+15370,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DC164D8>'
+15374,Picture,loaded,pictures\nez.jpg
+15378,Picture,loaded,pictures\pied.jpg
+15391,Stimulus,presented,16
+15393,Stimulus,played,b'sounds\\IL_O\xc3\x99_PIED.wav'
+20910,Picture,loaded,pictures\nez.jpg
+20912,Picture,loaded,pictures\nez.jpg
+20914,Picture,loaded,pictures\pied.jpg
+20916,Picture,loaded,pictures\pied.jpg
+20916,TouchScreenButtonBox,received, button press,check
+20917,stdout,received,'Vrai'
+20920,Stimulus,presented,0
+40567,Experiment,ended
+40570,Data,saved

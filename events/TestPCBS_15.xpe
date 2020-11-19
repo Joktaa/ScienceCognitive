@@ -1,0 +1,31 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 15:55:15
+#sha1: 7d405a
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1955,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1955,design,logged,
+1955,Experiment,started
+1960,Stimulus,presented,0
+1961,Stimulus,created,6,BlankScreen,copied from 5
+1961,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1DA44088>'
+1968,Picture,loaded,pictures\nez.jpg
+1975,Picture,loaded,pictures\pied.jpg
+2004,Stimulus,presented,6
+2008,Stimulus,played,b'sounds\\IL_O\xc3\x99_PIED.wav'
+7489,Picture,loaded,pictures\nez.jpg
+7492,Picture,loaded,pictures\nez.jpg
+7495,Picture,loaded,pictures\pied.jpg
+7497,Picture,loaded,pictures\pied.jpg
+7497,TouchScreenButtonBox,received, button press,check
+7501,Stimulus,presented,0
+8502,stderr,received,'Traceback (most recent call last):'
+8503,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 51, in <module>'
+8505,stderr,received,'    if nbr_aleatoire in apparu : '
+8510,stderr,received,"TypeError: argument of type 'NoneType' is not iterable"
+8513,Data,saved

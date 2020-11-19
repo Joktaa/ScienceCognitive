@@ -1,0 +1,24 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 15:56:56
+#sha1: 26c24f
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+2019,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+2019,design,logged,
+2019,Experiment,started
+2022,Stimulus,presented,0
+22261,stderr,received,'Traceback (most recent call last):'
+22262,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 50, in <module>'
+22264,stderr,received,'    nbr_aleatoire = randint(0, 15)'
+22273,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\random.py", line 248, in randint'
+22275,stderr,received,'    return self.randrange(a, b+1)'
+22275,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\random.py", line 224, in randrange'
+22277,stderr,received,'    return istart + self._randbelow(width)'
+22278,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\random.py", line 255, in _randbelow_with_getrandbits'
+22279,stderr,received,'    r = getrandbits(k)          # 0 <= r < 2**k'
+22280,stderr,received,'KeyboardInterrupt'

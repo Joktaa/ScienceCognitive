@@ -1,0 +1,52 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2020 19:01:15
+#sha1: 9c7bab
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1111,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,result,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1111,design,logged,
+1111,Experiment,started
+1114,Stimulus,presented,0
+1114,Stimulus,created,6,BlankScreen,copied from 5
+1115,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x143D6190>'
+1120,Picture,loaded,pictures\biberon.jpg
+1124,Picture,loaded,pictures\livre.jpg
+1140,Stimulus,presented,6
+1144,Stimulus,played,b'sounds\\IL_O\xc3\x99_BIBERON.wav'
+7940,Picture,loaded,pictures\biberon.jpg
+7942,Picture,loaded,pictures\biberon.jpg
+7942,TouchScreenButtonBox,received, button press,check
+7943,stdout,received,'Vrai'
+7945,Stimulus,presented,0
+8945,Stimulus,created,11,BlankScreen,copied from 10
+8945,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x143D6568>'
+8949,Picture,loaded,pictures\biberon.jpg
+8953,Picture,loaded,pictures\livre.jpg
+8969,Stimulus,presented,11
+8971,Stimulus,played,b'sounds\\IL_O\xc3\x99_LIVRE.wav'
+15360,Picture,loaded,pictures\biberon.jpg
+15362,Picture,loaded,pictures\biberon.jpg
+15364,Picture,loaded,pictures\livre.jpg
+15366,Picture,loaded,pictures\livre.jpg
+15366,TouchScreenButtonBox,received, button press,check
+15367,stdout,received,'Vrai'
+15369,Stimulus,presented,0
+16369,Stimulus,created,16,BlankScreen,copied from 15
+16369,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x143D6508>'
+16373,Picture,loaded,pictures\voiture.jpg
+16376,Picture,loaded,pictures\balle.jpg
+16395,Stimulus,presented,16
+16396,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_VOITURE.wav'
+22753,Picture,loaded,pictures\voiture.jpg
+22755,Picture,loaded,pictures\voiture.jpg
+22755,TouchScreenButtonBox,received, button press,check
+22756,stdout,received,'Vrai'
+22758,Stimulus,presented,0
+26257,stdout,received,"[['IL_OÙ_BIBERON.wav', 'Vrai', 1798, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0], ['IL_OÙ_LIVRE.wav', 'Vrai', 1395, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0], ['ELLE_OÙ_VOITURE.wav', 'Vrai', 1359, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0], ['', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0], ['', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0], ['', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0], ['', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0], ['', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0], ['', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0], ['', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0], ['', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0], ['', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0], ['', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0], ['', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0], ['', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0], ['', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0]]"
+26258,Experiment,ended
+26260,Data,saved

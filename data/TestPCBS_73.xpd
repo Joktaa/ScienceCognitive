@@ -1,0 +1,13 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpd-file, coding: cp1252
+#date: Fri Jan 17 2020 19:47:49
+#--EXPERIMENT INFO
+#e mainfile: TestPCBS.py
+#e sha1: dfa931
+#e modules: 
+#e Experiment: sentence picture matching task
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 73
+subject_id,sound,picture1,picture2,result,rt
+73,IL_OÙ_BIBERON.wav,biberon.jpg,livre.jpg,Vrai,5573
+73,ELLE_OÙ_MAIN.wav,couche.jpg,main.jpg,Vrai,6425

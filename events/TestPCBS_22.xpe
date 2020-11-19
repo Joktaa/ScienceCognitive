@@ -1,0 +1,40 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 16:04:45
+#sha1: ed3cee
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+3197,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+3197,design,logged,
+3197,Experiment,started
+3201,Stimulus,presented,0
+3202,Stimulus,created,6,BlankScreen,copied from 5
+3203,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x117D40A0>'
+3207,Picture,loaded,pictures\voiture.jpg
+3211,Picture,loaded,pictures\balle.jpg
+3236,Stimulus,presented,6
+3237,Stimulus,played,b'sounds\\IL_O\xc3\x99_BALLON.wav'
+8648,Picture,loaded,pictures\voiture.jpg
+8650,Picture,loaded,pictures\voiture.jpg
+8652,Picture,loaded,pictures\balle.jpg
+8654,Picture,loaded,pictures\balle.jpg
+10239,Stimulus,presented,0
+11240,Stimulus,created,11,BlankScreen,copied from 10
+11240,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1177B3E8>'
+11249,Picture,loaded,pictures\couche.jpg
+11253,Picture,loaded,pictures\main.jpg
+11276,Stimulus,presented,11
+11281,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_MAIN.wav'
+16680,stderr,received,'Traceback (most recent call last):'
+16680,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 76, in <module>'
+16681,stderr,received,'    response, rt = BB.wait(duration = 4000)'
+16688,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\expyriment\\io\\_touchscreenbuttonbox.py", line 284, in wait'
+16689,stderr,received,'    _internals.active_exp.keyboard.process_control_keys():'
+16689,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 86, in process_control_keys'
+16690,stderr,received,'    for event in pygame.event.get(pygame.KEYDOWN):'
+16691,stderr,received,'KeyboardInterrupt'
+16698,Data,saved

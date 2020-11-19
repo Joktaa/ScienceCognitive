@@ -1,0 +1,29 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 14:47:57
+#sha1: 6e0f46
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+6134,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+6134,design,logged,
+6134,Experiment,started
+6138,Stimulus,presented,0
+6139,stdout,received,'sounds\\ELLE_OÙ_COUCHE.wav'
+6139,Stimulus,created,6,BlankScreen,copied from 5
+6140,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x1D3C1190>'
+6146,Picture,loaded,pictures\couche.jpg
+6152,Picture,loaded,pictures\main.jpg
+6174,Stimulus,presented,6
+6178,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_COUCHE.wav'
+20898,stderr,received,'Traceback (most recent call last):'
+20898,stderr,received,'  File "c:/Users/joris/Downloads/wetransfer-e9ac0c/TestPCBS.py", line 43, in <module>'
+20899,stderr,received,'    response, rt = BB.wait()'
+20900,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\expyriment\\io\\_touchscreenbuttonbox.py", line 284, in wait'
+20902,stderr,received,'    _internals.active_exp.keyboard.process_control_keys():'
+20903,stderr,received,'  File "C:\\Users\\joris\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 86, in process_control_keys'
+20906,stderr,received,'    for event in pygame.event.get(pygame.KEYDOWN):'
+20906,stderr,received,'KeyboardInterrupt'

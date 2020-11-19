@@ -1,0 +1,27 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpd-file, coding: cp1252
+#date: Fri Jan 17 2020 20:26:56
+#--EXPERIMENT INFO
+#e mainfile: TestPCBS.py
+#e sha1: 82f907
+#e modules: 
+#e Experiment: sentence picture matching task
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 1
+subject_id,sound,picture1,picture2,result,rt
+1,IL_OÙ_LIVRE.wav,biberon.jpg,livre.jpg,Vrai,6001
+1,ELLE_OÙ_MAIN.wav,couche.jpg,main.jpg,Vrai,4475
+1,IL_OÙ_NEZ.wav,nez.jpg,pied.jpg,Faux,6578
+1,IL_OÙ_NEZ.wav,nez.jpg,pied.jpg,Vrai,1943
+1,IL_OÙ_LIVRE.wav,biberon.jpg,livre.jpg,Vrai,5358
+1,ELLE_OÙ_COUCHE.wav,couche.jpg,main.jpg,Vrai,5027
+1,IL_OÙ_BALLON.wav,voiture.jpg,balle.jpg,Vrai,5841
+1,IL_OÙ_BIBERON.wav,biberon.jpg,livre.jpg,Vrai,4860
+1,ELLE_OÙ_VOITURE.wav,voiture.jpg,balle.jpg,Vrai,4974
+1,IL_OÙ_PIED.wav,nez.jpg,pied.jpg,Vrai,4471
+1,IL_OÙ_BIBERON.wav,biberon.jpg,livre.jpg,Faux,4965
+1,ELLE_OÙ_MAIN.wav,couche.jpg,main.jpg,Vrai,5365
+1,IL_OÙ_PIED.wav,nez.jpg,pied.jpg,Faux,5163
+1,IL_OÙ_BALLON.wav,voiture.jpg,balle.jpg,Faux,5608
+1,ELLE_OÙ_COUCHE.wav,couche.jpg,main.jpg,Vrai,5567
+1,ELLE_OÙ_VOITURE.wav,voiture.jpg,balle.jpg,Vrai,5096

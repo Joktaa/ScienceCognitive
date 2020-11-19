@@ -1,0 +1,47 @@
+#Expyriment 0.10.0 (Python 3.8.1), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2020 16:34:02
+#sha1: 5e4a32
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-37E60HJ', release='10', version='10.0.18362', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1628,design,log,
+#design: #exp: sentence picture matching task
+#design: #dvn: sound,picture1,picture2,response,rt
+#design: block_cnt,block_id,trial_cnt,trial_id
+1628,design,logged,
+1628,Experiment,started
+1630,Stimulus,presented,0
+1631,Stimulus,created,6,BlankScreen,copied from 5
+1632,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x11CC50A0>'
+1636,Picture,loaded,pictures\voiture.jpg
+1642,Picture,loaded,pictures\balle.jpg
+1662,Stimulus,presented,6
+1665,Stimulus,played,b'sounds\\IL_O\xc3\x99_BALLON.wav'
+6797,Picture,loaded,pictures\voiture.jpg
+6799,Picture,loaded,pictures\voiture.jpg
+6801,Picture,loaded,pictures\balle.jpg
+6804,Picture,loaded,pictures\balle.jpg
+6804,TouchScreenButtonBox,received, button press,check
+6809,Stimulus,presented,0
+7809,Stimulus,created,11,BlankScreen,copied from 10
+7809,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x11CC5160>'
+7816,Picture,loaded,pictures\voiture.jpg
+7821,Picture,loaded,pictures\balle.jpg
+7847,Stimulus,presented,11
+7849,Stimulus,played,b'sounds\\ELLE_O\xc3\x99_VOITURE.wav'
+12607,Picture,loaded,pictures\voiture.jpg
+12609,Picture,loaded,pictures\voiture.jpg
+12609,TouchScreenButtonBox,received, button press,check
+12612,Stimulus,presented,0
+13613,Stimulus,created,16,BlankScreen,copied from 15
+13613,stdout,received,'<expyriment.stimuli._blankscreen.BlankScreen object at 0x11CC5028>'
+13617,Picture,loaded,pictures\biberon.jpg
+13626,Picture,loaded,pictures\livre.jpg
+13646,Stimulus,presented,16
+13648,Stimulus,played,b'sounds\\IL_O\xc3\x99_BIBERON.wav'
+16648,Experiment,paused
+16654,Stimulus,presented,17
+17597,Keyboard,received,y,wait_char
+17597,Experiment,ended
+17599,Data,saved
